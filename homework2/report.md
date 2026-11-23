@@ -10,7 +10,7 @@
 
 **图 1　组织/课程仓库页面**
 
-!\[组织仓库截图](images/01-org-repo%20.png)
+![组织仓库截图](images/01-org-repo.png)
 
 实际 clone 地址（文本）：
 
@@ -27,13 +27,13 @@ cd pi-hunnu-2026
 
 **图 2　本人 clone 后的仓库信息**
 
-!\[clone 信息截图](images/02-clone-info%20.png)
+![clone 信息截图](images/02-clone-info.png)
 
 ### 1.2 源码目录
 
 **图 3　源码目录**
 
-!\[源码目录截图](images/03-source-tree%20.png)
+![源码目录截图](images/03-source-tree.png)
 
 实际 `packages/` 下有 12 个目录：
 
@@ -191,7 +191,7 @@ packages/<module>/tsconfig.build.json
 
 ### 5.1 图
 
-!\[Pi monorepo 模块层级与直接依赖](diagram%20.png)
+![Pi monorepo 模块层级与直接依赖](diagram.png)
 
 箭头统一为**使用方 → 被依赖方**：`coding-agent → agent` 表示 `coding-agent` 使用 `agent`，不是反向。
 
